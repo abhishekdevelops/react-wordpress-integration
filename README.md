@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# ⚛️ React + WordPress Integration
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a professional frontend integration of **React** with **WordPress as a Headless CMS**. It dynamically fetches **Projects** and **Blogs** from the WordPress REST API using custom fields from **Advanced Custom Fields (ACF)**.
 
-## Available Scripts
+> This is my master repo for showcasing scalable React + WordPress integrations with real-world components, routing, and clean UI.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌐 Live Demo  
+[https://react-wordpress-integration.vercel.app](https://react-wordpress-integration.vercel.app) 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Features
 
-### `npm test`
+- ✅ Dynamic Projects page (`/projects`)
+- ✅ Project Details page (`/projects/:id`)
+- ✅ Blogs page (`/blogs`) *(placeholder)*
+- ✅ Blog Details page (`/blogs/:id`) *(placeholder)*
+- ✅ Home and About pages
+- ✅ Clean routing using React Router
+- ✅ Styled layout using plain CSS and inline styles
+- ✅ REST API integration with WordPress
+- ✅ Scalable and extensible structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧱 Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Frontend:** React, React Router
+- **Backend CMS:** WordPress with ACF
+- **API:** WP REST API (`/wp-json/wp/v2`)
+- **Deployment:** Vercel
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📂 Folder Structure
 
-### `npm run eject`
+```
+src/
+├── components/
+│   └── ProjectCard.js
+├── pages/
+│   ├── HomePage.js
+│   ├── AboutPage.js
+│   ├── ProjectsPage.js
+│   ├── ProjectDetailsPage.js
+│   ├── BlogsPage.js
+│   └── BlogDetail.js
+├── App.js
+└── index.js
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Local Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone https://github.com/yourusername/react-wordpress-integration.git
+cd react-wordpress-integration
+npm install
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Make sure the WordPress REST API is available at:
+```
+https://cms.digitalwebtrends.in/wp-json/wp/v2/projects
+https://cms.digitalwebtrends.in/wp-json/wp/v2/posts
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 👨‍💻 About Me
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+I’m **Abhishek**, a React + WordPress developer focused on headless CMS and scalable frontend systems. This repo showcases real-world integration between modern JavaScript and traditional CMS.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> This repository will be continuously expanded with more headless WordPress features like Testimonials, Case Studies, and Contact Forms.
